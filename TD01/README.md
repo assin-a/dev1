@@ -1,5 +1,5 @@
 Le début du TD sert à apprendre à utiliser python en mode intéractif. 
-On peut faire ca grâce a une interface graphique git bash ou directement en installant l'interface graphique de python.
+On peut faire ca grâce a une interface graphique comme git bash ou directement en installant l'interface graphique de python.
 
 
 
@@ -27,20 +27,19 @@ Bonjour*5, Provoque une erreur, python n'a aucune idée de ce qu'est Bonjour
 
 La suite du td aborde les différents opérateurs arithmétiques,
 
-+   l'addition
--   soustraction
-∗   la multiplication
-∗∗  l'exposant
-/   la division 
-//  la division entière
-%   le reste de la division entière
+*  '+'  l'addition
+*  '-'  la soustraction
+*  '*'  la multiplication
+*  '**' l'exposant
+*  '/'  la division 
+*  '//' la division entière
+*  '%'  le reste de la division entière
 
 
 Q1.L’aire du cercle:
-Utilisez une expression Python pour calculer l’aire d’un cercle de 6.5 centimètre de
-rayon .
-(aire) A = πr2,
-        expression: 3.14*6.5**2
+Utilisez une expression Python pour calculer l’aire d’un cercle de 6.5 centimètre de rayon .
+        (aire) A = πr2,
+                expression: 3.14*6.5**2
 
 
 Q2.Secondes en minutes
@@ -50,6 +49,8 @@ au moyen d’une expression Python.
 
 
 Pour manipuler des chaînes de caractère en python, il faut toujours les mettres entre guillemets simples ou doubles '/"
+
+
 Exercice de manipulation de chaînes de caractère:
 
 len('Bonjour'), affiche la longeur de la chaîne de caractère 'Bonjour'
@@ -58,8 +59,8 @@ len('Bonjour'), affiche la longeur de la chaîne de caractère 'Bonjour'
 
 'Bonjour ' + 'tout le monde', Concatène les deux chaînes de caractère 'Bonjour ' et 'tout le monde'
 
-'Haha'*10 + '!', Répète la chaîne de caractère Haha dix fois puis ajoute un point d'exclamation apres 
 
+'Haha'*10 + '!', Répète la chaîne de caractère Haha dix fois puis ajoute un point d'exclamation apres 
 
 
 On voit désormais ce que sont les listes de données, une liste suit la forme suivante:
@@ -81,4 +82,4 @@ len(liste_1),   renvoie le nombre d'éléments de la liste
 max(liste_1),   renvoie le plus grand élément de la liste
 
 
-Il existe plusieurs type de données, pour en connaître la valeur d'une donnée on utilise l'expression:      type(valeur)
+Il existe plusieurs type de données, pour en connaître la valeur d'une donnée on utilise l'expression:                  type(valeur)
