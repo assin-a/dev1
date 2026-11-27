@@ -5,10 +5,10 @@ Par exemple, le nom d'une liste est une variable qui fait référence a la valeu
 
 exemple de variables:
 nom = 'Yassin'
-    variable: nom
+    Ici la variable est: nom
 
-listee= [10,12,14]
-    variable: listee
+listee = [10,12,14]
+    Ici la variable est: listee
 
 etc.
 
